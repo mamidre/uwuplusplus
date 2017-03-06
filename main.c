@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <string.h>
+#include <stdio.h>
 #include "uwu.h"
 
 void variable_t vstack[UWU_STKLEN];
