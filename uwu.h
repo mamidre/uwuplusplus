@@ -12,3 +12,4 @@ typedef struct uwuplusplus_stmt_s {
 } stmt_t;
 
 extern variable_t vstack[UWU_STKLEN];
+extern int UWU_STKIDX;
