@@ -8,6 +8,7 @@ typedef struct uwuplusplus_variable_s {
 typedef struct uwuplusplus_stmt_s {
 	char *instr;
 	char **args;
+	int len;
 } stmt_t;
 
 extern variable_t vstack[UWU_STKLEN];
